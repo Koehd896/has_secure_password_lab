@@ -1,0 +1,4 @@
+<%= form_tag 'login', '/sessions/new', method: post do %>
+Username: <%= f.text_field :name %>
+Password: <%= f.password_field :password %>
+<% end %>
